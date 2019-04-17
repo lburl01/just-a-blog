@@ -1,13 +1,8 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
-
 const path = require("path")
-const { createFilePath } = require(`gatsby-source-filesystem`)
+const { createFilePath, createFileNode } = require(`gatsby-source-filesystem`)
 exports.createPages = ({ actions, graphql }) => {
     const { createPage } = actions
+    const blogPostTemplate = path.resolve(`src/templates/post.js`)
     return new Promise((resolve, reject) => {
         resolve(graphql(`
     {

@@ -2,7 +2,7 @@
 title: Test Post
 description: This post is related to the gatsbyjs
 date: '2019-04-17'
-image: ''
+image: 'emerson-peters-552218-unsplash.jpg'
 ---
 Don't build a website with last decade's tech. The future of the web is mobile, JavaScript and APIs.
 The Lorem Ipsum is simply dummy text of the printing and typesetting industry.

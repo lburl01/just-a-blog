@@ -1,9 +1,9 @@
 ---
-title: Docker 101
-description: Filling in my Docker knowledge with the play-with-docker tutorials
-date: '2019-04-17'
-image: 'emerson-peters-552218-unsplash.jpg'
-tags: ['docker']
+title: Stepping into the Python Pit
+description: Codewars as a learning tool
+date: '2019-04-18'
+image: 'tina-hartung-196218-unsplash.jpg'
+tags: ['python']
 ---
 ## First heading
 Something to talk about.

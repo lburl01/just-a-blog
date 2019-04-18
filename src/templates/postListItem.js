@@ -5,29 +5,21 @@ import Card from '@material-ui/core/Card'
 import CardActions from '@material-ui/core/CardActions'
 import CardContent from '@material-ui/core/CardContent'
 
+import Icon from '@material-ui/core/Icon'
+
+import { APP_COLORS } from '../components/theme'
+
 const PostListItem = ({ children, linkTo }) =>
-  <div
-  style={{
-    margin: '0 auto',
-    maxWidth: 960,
-    padding: '0px 1.0875rem 1.45rem',
-    paddingTop: 0,
-  }}
-  >
-    <Card>
+  <Card style={{ background: APP_COLORS.mint, padding: '15px', marginBottom: '15px' }}>
     <CardContent>
       {children}
     </CardContent>
     <CardActions>
-      <Button
-        color="primary"
-        variant="outlined"
-        href={linkTo}
-      >
-        Read More
+      <Button href={linkTo} >
+        More
+        <Icon style={{ paddingLeft: '5px' }}>call_made</Icon>
       </Button>
     </CardActions>
-    </Card>
-  </div>;
+  </Card>;
 
 export default PostListItem;

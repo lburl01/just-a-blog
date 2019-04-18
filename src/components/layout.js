@@ -45,6 +45,7 @@ const Layout = ({ children }) => (
         >
           {children}
         </div>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
       </>
     )}
   />

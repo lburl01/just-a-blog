@@ -20,8 +20,8 @@ const Post = ({ data, location }) => {
         url={url}
         pathname={location.pathname}
       />
-      <h2>{title}</h2>
-      <Img fluid={image.childImageSharp.fluid} />
+      <h1>{title}</h1>
+      <Img fluid={image.childImageSharp.fluid} style={{ marginBottom: '15px' }}/>
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
     </Layout>
   )

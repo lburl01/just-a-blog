@@ -545,6 +545,9 @@ code {
   font-size: 0.85rem;
   line-height: 1.45rem;
 }
+.gatsby-highlight {
+  margin-bottom: 20px;
+}
 kbd {
   font-size: 0.85rem;
   line-height: 1.45rem;
